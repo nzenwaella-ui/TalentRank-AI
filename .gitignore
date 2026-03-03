@@ -1,0 +1,28 @@
+# Prerequisites
+node_modules/
+__pycache__/
+.venv/
+env/
+venv/
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large AI models (if downloaded locally)
+*.bin
+*.pkl
+*.pt
+*.onnx
+
+# Credentials & Keys
+secrets.json
+supabase_keys.txt
